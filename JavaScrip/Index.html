@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+
+</head>
+
+<body>
+
+
+    <h1 id="saludo"></h1>
+    <h1> id ="suma">Resultado de la suma es: </h1>
+
+
+
+
+
+
+
+    <script>
+        var saludoId = document.getElementById('saludo');
+
+        /* function saludar(nombre) {
+             return 'hola ' + nombre;
+         }   */
+
+
+        //FUNCION ARROW
+
+        var saludar = nombre => 'hOLA ' + nombre;
+
+        saludoId.innerHTML = saludar('Ignacio');
+
+        var sumaID = dicument.getElementById('suma');
+        var sumar = (num1, num2) => num1 + num2;
+
+        sumaID.innerHTML += sumar(20, 20);
+
+
+
+
+
+
+
+
+
+
+
+        //var numero = 10;
+        //var nombre = 'ignacio'
+
+        // numero = numero + numero2;
+
+        // if (numero > 5 && nombre == 'ignacio') {
+
+        // console.log('verdadero');
+        //} else {
+        //  console.log('falso');
+        // }
+
+        // var arreglo = [1, 5, 10, 'ignacio', true];
+
+        // for (var i = 0; i < 5; i++) {
+        //   console.log(arreglo[i]);
+        //}
+
+        //var i = 0;
+
+        //while(i<10){
+        //  console.log(i);
+        //i++;
+        //}
+
+        // var hora = 15;
+
+        /* switch (hora) {
+
+             case 10:
+                 console.log('son las 10 de la mañana');
+                 break;
+
+             case 15:
+                 console.log('son las 3 de las tarde');
+                 break;
+                 default :
+                 console.log('no tengo saludo a esa hora');
+                 break;
+        }
+                 //el default toma cualquier numero q no este en la condicion
+                 */
+
+        /*  var num1 = 10;
+          var num2 = 15;
+
+          function suma() {
+              return console.log(num1 + num2);
+
+          }
+
+          suma();*/
+        /*
+
+        function suma(num1, num2) {
+            return console.log(num1 + num2);
+
+        }
+
+        suma(10, 63);
+        */
+    </script>
+
+
+
+
+</body>
+
+</html>
